@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>와르르 WARURU — 지원 / Support</title>
+<style>
+  body { margin:0; background:#0d0d14; color:#e6e6ee; font-family:-apple-system,'Apple SD Gothic Neo','Helvetica Neue',sans-serif; line-height:1.7; }
+  main { max-width:680px; margin:0 auto; padding:56px 24px 80px; }
+  h1 { font-size:26px; margin:0 0 6px; }
+  h2 { font-size:17px; margin:36px 0 8px; color:#ff5147; }
+  a { color:#ff7a72; }
+  .card { background:#15151f; border:1px solid #22222e; border-radius:14px; padding:18px 22px; margin-top:14px; }
+  .q { color:#c9c9d6; font-weight:600; margin-top:16px; }
+  .a { color:#9a9aab; }
+  hr { border:0; border-top:1px solid #22222e; margin:40px 0; }
+  form { display:flex; flex-direction:column; gap:10px; margin-top:8px; }
+  input, textarea { width:100%; box-sizing:border-box; background:#0f0f18; border:1px solid #2a2a38; border-radius:10px;
+    color:#e6e6ee; padding:11px 13px; font-size:15px; font-family:inherit; }
+  textarea { min-height:110px; resize:vertical; }
+  button { align-self:flex-start; background:#ff5147; color:#fff; border:0; border-radius:10px; padding:11px 22px;
+    font-size:15px; font-weight:700; cursor:pointer; }
+  button:hover { background:#ff6a61; }
+  label { font-size:13px; color:#8a8a99; }
+</style>
+</head>
+<body>
+<main>
+  <h1>와르르 (WARURU) — 지원</h1>
+  <p>문의·버그 제보·피드백은 아래 폼으로 보내주세요. 개발자에게 바로 전달됩니다.</p>
+  <div class="card">
+    <form action="https://formspree.io/f/xvzjevyl" method="POST">
+      <label>회신받을 이메일 (선택)</label>
+      <input type="email" name="email" placeholder="you@example.com">
+      <label>메시지</label>
+      <textarea name="message" placeholder="문의·버그·피드백을 적어주세요" required></textarea>
+      <input type="hidden" name="_subject" value="WARURU support (web · ko)">
+      <input type="hidden" name="_next" value="https://richryu98.github.io/waruru-legal/thanks.html">
+      <button type="submit">보내기</button>
+    </form>
+  </div>
+  <h2>자주 묻는 질문</h2>
+  <div class="q">어떻게 하나요?</div>
+  <div class="a">화면을 꾹 누르면 군중이 전진하고, 떼면 멈춥니다. 초록불엔 전진, 감시자가 돌아보는 빨간불엔 멈추세요. 5단계를 살아남으면 클리어입니다.</div>
+  <div class="q">점수는 어떻게 오르나요?</div>
+  <div class="a">군중이 전진한 만큼 오르고, 빨간불에 아슬아슬하게 기어가면 ×3, 무피해 콤보는 최대 ×9까지 붙습니다.</div>
+  <div class="q">개인정보를 수집하나요?</div>
+  <div class="a">앱 자체는 광고·제3자 분석 SDK가 없고 최고 점수만 기기에 저장됩니다. 순위표(선택)를 쓰면 점수가 Apple Game Center로, 피드백을 보내면 메시지가 개발자에게 전달됩니다. 자세한 내용은 <a href="privacy.html">개인정보 처리방침</a>을 참고하세요.</div>
+
+  <hr>
+
+  <h1>WARURU — Support</h1>
+  <p>Send questions, bug reports, or feedback with the form below — it goes straight to the developer.</p>
+  <div class="card">
+    <form action="https://formspree.io/f/xvzjevyl" method="POST">
+      <label>Email for a reply (optional)</label>
+      <input type="email" name="email" placeholder="you@example.com">
+      <label>Message</label>
+      <textarea name="message" placeholder="Tell us your question, bug, or feedback" required></textarea>
+      <input type="hidden" name="_subject" value="WARURU support (web · en)">
+      <input type="hidden" name="_next" value="https://richryu98.github.io/waruru-legal/thanks.html">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <h2>FAQ</h2>
+  <div class="q">How do I play?</div>
+  <div class="a">Hold the screen to move the crowd forward, release to stop. Go on green; freeze on the red light when the watcher turns. Survive all 5 stages to win.</div>
+  <div class="q">How does scoring work?</div>
+  <div class="a">You score as the crowd advances. Creep under the red light for ×3, and a no-loss streak builds a combo up to ×9.</div>
+  <div class="q">Do you collect my data?</div>
+  <div class="a">The app itself has no ads or third-party analytics and stores only your best score on-device. If you use the leaderboard (optional) your score goes to Apple Game Center, and if you send feedback your message goes to the developer. See the <a href="privacy.html">privacy policy</a> for details.</div>
+</main>
+</body>
+</html>
